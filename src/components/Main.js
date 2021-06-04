@@ -6,7 +6,7 @@ export default function Main() {
         <div>
             <main>
                 <section className="main-logo">
-                    <img src="" alt="" />
+                    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="google logo" />
                 </section>
                 <section className="main-input" >
                     <div className="main-input-container">
