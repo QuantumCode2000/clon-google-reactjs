@@ -1,12 +1,13 @@
 import React from 'react'
 import "./styles/Main.css"
+import logo from "../images/google-logo.png"
 
 export default function Main() {
     return (
         <div>
             <main>
                 <section className="main-logo">
-                    <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="google logo" />
+                    <img src={logo} alt="google logo"/>
                 </section>
                 <section className="main-input" >
                     <div className="main-input-container">
