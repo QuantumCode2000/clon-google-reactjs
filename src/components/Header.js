@@ -3,7 +3,7 @@ import "./styles/Header.css"
 
 export default function Header() {
     return (
-        <div>
+        <React.Fragment>
             <header >
                 <nav>
                     <ul className="nav-right-section">
@@ -24,6 +24,6 @@ export default function Header() {
                     </ul>
                 </nav>
             </header>
-        </div> 
+        </React.Fragment> 
     );
 }

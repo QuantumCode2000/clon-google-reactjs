@@ -4,7 +4,7 @@ import logo from "../images/google-logo.png"
 
 export default function Main() {
     return (
-        <div>
+        <React.Fragment>
             <main>
                 <section className="main-logo">
                     <img src={logo} alt="google logo"/>
@@ -28,6 +28,6 @@ export default function Main() {
                     </div>
                 </section>
             </main>
-        </div>
+        </React.Fragment>
     )
 }
