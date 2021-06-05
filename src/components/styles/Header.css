@@ -23,7 +23,7 @@ header nav .nav-right-section {
 }
 
 nav .nav-right-section a {
-    margin-right: 10px;
+    margin-right: 12px;
     color:#000000;
 }
 nav .nav-right-section .menu-icon {
@@ -33,9 +33,16 @@ nav .nav-right-section .menu-icon {
     background-size: contain;
     width: 17px;
     height: 17px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+nav .nav-right-section .img-profile {
+    margin-right: 0;
+    cursor: pointer;
 }
 
 nav .nav-right-section img {
     border-radius: 50%;
-    margin-left: 10px;
+    margin-left: 25px;
 }
